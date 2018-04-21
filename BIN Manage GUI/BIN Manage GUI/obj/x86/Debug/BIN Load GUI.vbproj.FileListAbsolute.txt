@@ -1,0 +1,17 @@
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\BIN Load GUI.exe
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\BIN Load GUI.pdb
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\BIN Load GUI.xml
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\BIN_Load_GUI.Resources.resources
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\BIN Load GUI.vbproj.GenerateResource.Cache
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\BIN Load GUI.exe
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\BIN Load GUI.xml
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\BIN Load GUI.pdb
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\BIN_Load_GUI.ViewCodeInfor.resources
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\XGPub_FncModule.dll
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\XGPub_FncModule.pdb
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\XGPub_FncModule.xml
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\BIN_Load_GUI.frmMain.resources
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\XGPub_FIS.dll
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\XGPub_FIS.pdb
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\XGPub_FIS.xml
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\BIN Load GUI.vbprojResolveAssemblyReference.cache

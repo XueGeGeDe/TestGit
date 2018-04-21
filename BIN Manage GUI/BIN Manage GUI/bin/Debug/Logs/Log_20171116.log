@@ -1,0 +1,14 @@
+2017-11-16 15:20:46 XGPub_FncModule.clsDBControl.InsertData:操作数类型冲突: nvarchar 与 image 不兼容,Line:290
+
+2017-11-16 15:43:06 XGPub_FncModule.clsArray.ObjectToByte:从类型“Byte()”到类型“Byte”的转换无效。,Line:268
+
+2017-11-16 15:43:07 XGPub_FncModule.clsArray.ObjectToByte:从字符串“”到类型“Byte”的转换无效。,Line:268
+
+2017-11-16 15:43:43 XGPub_FncModule.clsArray.ObjectToByte:从类型“Byte()”到类型“Byte”的转换无效。,Line:268
+
+2017-11-16 15:45:08 XGPub_FncModule.clsArray.ObjectToByte:从类型“Byte()”到类型“Byte”的转换无效。,Line:268
+
+2017-11-16 15:46:11 XGPub_FncModule.clsArray.ObjectToByte:从类型“Byte()”到类型“Byte”的转换无效。,Line:268
+
+2017-11-16 15:47:14 XGPub_FncModule.clsArray.ObjectToByte:从类型“Byte()”到类型“Byte”的转换无效。,Line:268
+

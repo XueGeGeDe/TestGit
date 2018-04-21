@@ -1,0 +1,80 @@
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\Bin Manage GUI.exe
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\Bin Manage GUI.pdb
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\Bin Manage GUI.xml
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\XGPub_FIS.dll
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\XGPub_FncModule.dll
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\XGPub_FIS.pdb
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\XGPub_FIS.xml
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\XGPub_FncModule.pdb
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\bin\Debug\XGPub_FncModule.xml
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\BIN Manage GUI.vbprojResolveAssemblyReference.cache
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\BIN_Manage_GUI.frmMain.resources
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\BIN_Manage_GUI.Resources.resources
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\BIN_Manage_GUI.ViewCodeInfor.resources
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\BIN Manage GUI.vbproj.GenerateResource.Cache
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\Bin Manage GUI.exe
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\Bin Manage GUI.xml
+D:\01 Project Development\XGIGA R&D GUI\BIN Load GUI\obj\x86\Debug\Bin Manage GUI.pdb
+D:\项目\BIN Manage GUI\BIN Manage GUI\obj\x86\Debug\Bin Manage GUI.exe
+D:\项目\BIN Manage GUI\BIN Manage GUI\obj\x86\Debug\Bin Manage GUI.xml
+D:\项目\BIN Manage GUI\BIN Manage GUI\obj\x86\Debug\Bin Manage GUI.pdb
+D:\项目\BIN Manage GUI\BIN Manage GUI\bin\Debug\Bin Manage GUI.exe
+D:\项目\BIN Manage GUI\BIN Manage GUI\bin\Debug\Bin Manage GUI.pdb
+D:\项目\BIN Manage GUI\BIN Manage GUI\bin\Debug\Bin Manage GUI.xml
+D:\项目\BIN Manage GUI\BIN Manage GUI\bin\Debug\XGPub_FIS.pdb
+D:\项目\BIN Manage GUI\BIN Manage GUI\bin\Debug\XGPub_FIS.xml
+D:\项目\BIN Manage GUI\BIN Manage GUI\bin\Debug\XGPub_FncModule.pdb
+D:\项目\BIN Manage GUI\BIN Manage GUI\bin\Debug\XGPub_FncModule.xml
+D:\项目\BIN Manage GUI\BIN Manage GUI\obj\x86\Debug\BIN Manage GUI.vbprojResolveAssemblyReference.cache
+D:\项目\BIN Manage GUI\BIN Manage GUI\obj\x86\Debug\BIN_Manage_GUI.frmMain.resources
+D:\项目\BIN Manage GUI\BIN Manage GUI\obj\x86\Debug\BIN_Manage_GUI.Resources.resources
+D:\项目\BIN Manage GUI\BIN Manage GUI\obj\x86\Debug\BIN_Manage_GUI.ViewCodeInfor.resources
+D:\项目\BIN Manage GUI\BIN Manage GUI\obj\x86\Debug\BIN Manage GUI.vbproj.GenerateResource.Cache
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\obj\x86\Debug\Bin Manage GUI.exe
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\obj\x86\Debug\Bin Manage GUI.xml
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\obj\x86\Debug\Bin Manage GUI.pdb
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\bin\Debug\Bin Manage GUI.exe
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\bin\Debug\Bin Manage GUI.pdb
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\bin\Debug\Bin Manage GUI.xml
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\bin\Debug\XGPub_FIS.dll
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\bin\Debug\XGPub_FncModule.dll
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\bin\Debug\XGPub_FIS.pdb
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\bin\Debug\XGPub_FIS.xml
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\bin\Debug\XGPub_FncModule.pdb
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\bin\Debug\XGPub_FncModule.xml
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\obj\x86\Debug\BIN_Manage_GUI.frmMain.resources
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\obj\x86\Debug\BIN_Manage_GUI.Resources.resources
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\obj\x86\Debug\BIN_Manage_GUI.ViewCodeInfor.resources
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\obj\x86\Debug\BIN Manage GUI.vbproj.GenerateResource.Cache
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\obj\x86\Debug\Bin Manage GUI.exe
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\obj\x86\Debug\Bin Manage GUI.xml
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\obj\x86\Debug\Bin Manage GUI.pdb
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\bin\Debug\Bin Manage GUI.exe
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\bin\Debug\Bin Manage GUI.pdb
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\bin\Debug\Bin Manage GUI.xml
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\bin\Debug\XGPub_FIS.pdb
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\bin\Debug\XGPub_FIS.xml
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\bin\Debug\XGPub_FncModule.pdb
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\bin\Debug\XGPub_FncModule.xml
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\obj\x86\Debug\BIN Manage GUI.vbprojResolveAssemblyReference.cache
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\obj\x86\Debug\BIN_Manage_GUI.frmMain.resources
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\obj\x86\Debug\BIN_Manage_GUI.Resources.resources
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\obj\x86\Debug\BIN_Manage_GUI.ViewCodeInfor.resources
+D:\vss 代码管理\BIN Manage GUI(1)\BIN Manage GUI\obj\x86\Debug\BIN Manage GUI.vbproj.GenerateResource.Cache
+D:\01 Project Development\XGIGA R&D GUI\BIN Manage GUI\obj\x86\Debug\BIN Manage GUI.vbprojResolveAssemblyReference.cache
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\obj\x86\Debug\Bin Manage GUI.exe
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\obj\x86\Debug\Bin Manage GUI.xml
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\obj\x86\Debug\Bin Manage GUI.pdb
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\bin\Debug\Bin Manage GUI.exe
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\bin\Debug\Bin Manage GUI.pdb
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\bin\Debug\Bin Manage GUI.xml
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\bin\Debug\XGPub_FIS.pdb
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\bin\Debug\XGPub_FIS.xml
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\bin\Debug\XGPub_FncModule.pdb
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\bin\Debug\XGPub_FncModule.xml
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\obj\x86\Debug\BIN Manage GUI.vbprojResolveAssemblyReference.cache
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\obj\x86\Debug\BIN_Manage_GUI.frmMain.resources
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\obj\x86\Debug\BIN_Manage_GUI.Resources.resources
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\obj\x86\Debug\BIN_Manage_GUI.ViewCodeInfor.resources
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\obj\x86\Debug\BIN Manage GUI.vbproj.GenerateResource.Cache
+D:\项目-改动\BIN Manage GUI(2)\BIN Manage GUI\bin\Debug\XGPub_FncModule.dll
