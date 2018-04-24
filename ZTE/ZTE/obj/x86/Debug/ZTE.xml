@@ -1,0 +1,109 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ZTE
+</name>
+</assembly>
+<members>
+<member name="P:ZTE.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ZTE.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ZTE.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:ZTE.GPIBDev.FailFlag">
+	<summary>
+ 通信失败标志位
+ </summary>
+</member><member name="M:ZTE.GPIBDev.SendCommand(System.String,System.Int32)">
+	<summary>
+ 发送控制命令--SCPI
+ </summary>
+	<param name="strCommand">字符串命令SCPI</param>
+	<param name="iTimeOut">命令发送后超时</param>
+	<returns>True:命令发送成功,False:命令发送失败</returns>
+	<remarks></remarks>
+</member><member name="M:ZTE.GPIBDev.SendCommand(System.Byte[],System.Int32)">
+	<summary>
+ 发送控制命令--多字节
+ </summary>
+	<param name="arrCommand">多字节命令</param>
+	<param name="iTimeOut">命令发送后超时</param>
+	<returns>True:命令发送成功,False:命令发送失败</returns>
+	<remarks></remarks>
+</member><member name="M:ZTE.GPIBDev.ReceiveData(System.String@,System.Int32,System.Int32@)">
+	<summary>
+ 接收数据
+ </summary>
+	<param name="strData">字符串数据</param>
+	<param name="Count">要接收的数据个数，默认为1024</param>
+	<returns>True:接收数据成功,False:接收数据失败</returns>
+	<remarks></remarks>
+</member><member name="M:ZTE.GPIBDev.ReceiveData(System.Byte[]@,System.Int32,System.Int32@)">
+	<summary>
+ 接收数据
+ </summary>
+	<param name="binData">多个字节数据</param>
+	<param name="Count">要接收的数据个数，默认为1024</param>
+	<returns>True:接收数据成功,False:接收数据失败</returns>
+	<remarks></remarks>
+</member><member name="M:ZTE.GPIBDev.SendAndReceiveData(System.Byte[],System.String@)">
+	<summary>
+ 发送命令和接收数据
+ </summary>
+	<param name="arrCommand">字符串命令</param>
+	<param name="strData">字符串数据</param>
+	<returns>True:发送和接收数据成功,False:发送或接收数据失败</returns>
+	<remarks></remarks>
+</member><member name="M:ZTE.GPIBDev.SendAndReceiveData(System.String,System.String@)">
+	<summary>
+ 发送命令和接收数据
+ </summary>
+	<param name="strCommand">字符串命令</param>
+	<param name="strData">字符串数据</param>
+	<returns>True:发送和接收数据成功,False:发送或接收数据失败</returns>
+	<remarks></remarks>
+</member><member name="M:ZTE.GPIBDev.OPC(System.Int32)">
+	<summary>
+ OPC，默认超时1秒
+ </summary>
+	<param name="sTime">超时等待时间</param>
+	<remarks></remarks>
+</member><member name="M:ZTE.GPIBDev.OpenVISA(System.String)">
+	<summary>
+ 打开设备通信
+ </summary>
+	<param name="strAddress">通信地址</param>
+	<returns>True:设备通信成功，False:设备通信失败</returns>
+	<remarks></remarks>
+</member><member name="M:ZTE.GPIBDev.OpenVISA(System.String,System.Int32)">
+	<summary>
+ 打开设备通信
+ </summary>
+	<param name="strAddress">通信地址</param>
+	<returns>True:设备通信成功，False:设备通信失败</returns>
+	<remarks></remarks>
+</member><member name="M:ZTE.GPIBDev.CloseVISA">
+	<summary>
+ 关系设备通信
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ZTE.GPIBDev.SearchKeyData(System.String,System.Collections.Generic.List{System.String})">
+	<summary>
+ 搜索关键字列表中的关键字对应的数据
+ </summary>
+	<param name="KeyValue">关键字</param>
+	<param name="KeyData">关键字列表</param>
+	<returns>不为空即为找到，否则为没有没有找到</returns>
+	<remarks>多个关键对应同一个设备，则用“，”分开，如"TXPOW,RXPOW,POW",最先找到则退出。</remarks>
+</member>
+</members>
+</doc>

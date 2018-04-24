@@ -1,0 +1,40 @@
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\bin\Debug\ZTE.exe
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\bin\Debug\ZTE.pdb
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\bin\Debug\ZTE.xml
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\bin\Debug\SourceGrid.dll
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\bin\Debug\XGPub_FIS.dll
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\bin\Debug\xgSourceGrid.dll
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\bin\Debug\XGPub_FIS.pdb
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\bin\Debug\XGPub_FIS.xml
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\bin\Debug\xgSourceGrid.pdb
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\bin\Debug\xgSourceGrid.xml
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\obj\x86\Debug\ZTE.vbprojResolveAssemblyReference.cache
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\obj\x86\Debug\ZTE.Form1.resources
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\obj\x86\Debug\ZTE.Resources.resources
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\obj\x86\Debug\ZTE.vbproj.GenerateResource.Cache
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\obj\x86\Debug\ZTE.exe
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\obj\x86\Debug\ZTE.xml
+C:\Users\admin\AppData\Local\Temporary Projects\ZTE\obj\x86\Debug\ZTE.pdb
+E:\vs2010workspace1\ZTE\ZTE\obj\x86\Debug\ZTE.exe
+E:\vs2010workspace1\ZTE\ZTE\obj\x86\Debug\ZTE.xml
+E:\vs2010workspace1\ZTE\ZTE\obj\x86\Debug\ZTE.pdb
+E:\vs2010workspace1\ZTE\ZTE\bin\Debug\ZTE.exe
+E:\vs2010workspace1\ZTE\ZTE\bin\Debug\ZTE.pdb
+E:\vs2010workspace1\ZTE\ZTE\bin\Debug\ZTE.xml
+E:\vs2010workspace1\ZTE\ZTE\bin\Debug\SourceGrid.dll
+E:\vs2010workspace1\ZTE\ZTE\bin\Debug\XGPub_FIS.dll
+E:\vs2010workspace1\ZTE\ZTE\bin\Debug\xgSourceGrid.dll
+E:\vs2010workspace1\ZTE\ZTE\bin\Debug\XGPub_FIS.pdb
+E:\vs2010workspace1\ZTE\ZTE\bin\Debug\XGPub_FIS.xml
+E:\vs2010workspace1\ZTE\ZTE\bin\Debug\xgSourceGrid.pdb
+E:\vs2010workspace1\ZTE\ZTE\bin\Debug\xgSourceGrid.xml
+E:\vs2010workspace1\ZTE\ZTE\obj\x86\Debug\ZTE.vbprojResolveAssemblyReference.cache
+E:\vs2010workspace1\ZTE\ZTE\obj\x86\Debug\ZTE.Form1.resources
+E:\vs2010workspace1\ZTE\ZTE\obj\x86\Debug\ZTE.Resources.resources
+E:\vs2010workspace1\ZTE\ZTE\obj\x86\Debug\ZTE.vbproj.GenerateResource.Cache
+E:\vs2010workspace1\ZTE\ZTE\bin\Debug\XGPub_FncModule.dll
+E:\vs2010workspace1\ZTE\ZTE\bin\Debug\XGPub_FncModule.pdb
+E:\vs2010workspace1\ZTE\ZTE\bin\Debug\XGPub_FncModule.xml
+E:\vs2010workspace1\ZTE\ZTE\obj\x86\Debug\ZTE.Labels.resources
+E:\vs2010workspace1\ZTE\ZTE\obj\x86\Debug\ZTE.vbproj.ResolveComReference.cache
+E:\vs2010workspace1\ZTE\ZTE\obj\x86\Debug\ZTE.上传XML.resources

@@ -1,0 +1,76 @@
+2018-01-23 10:48:42 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 10:49:36 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 10:50:49 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 10:56:38 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 11:03:16 XGPub_FncModule.clsUseExcel.WriteDataToExcel:异常来自 HRESULT:0x800AC472,Line:129
+
+2018-01-23 11:22:51 XGPub_FncModule.clsUseExcel.WriteDataToExcel:异常来自 HRESULT:0x800A03EC,Line:128
+
+2018-01-23 14:18:09 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 14:18:47 XGPub_FncModule.clsUseExcel.WriteDataToExcel:异常来自 HRESULT:0x800A03EC,Line:128
+
+2018-01-23 14:19:31 XGPub_FncModule.clsUseExcel.WriteDataToExcel:异常来自 HRESULT:0x800A03EC,Line:128
+
+2018-01-23 14:19:52 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 14:20:13 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 14:20:50 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 14:22:19 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 14:22:33 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 14:22:47 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 14:23:36 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 14:23:37 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 14:25:55 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 14:25:56 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 14:27:35 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 14:27:35 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 14:30:04 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 14:30:04 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 14:30:43 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 14:30:43 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 14:31:40 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 14:31:40 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 14:32:42 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 14:32:43 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 15:04:17 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 15:04:48 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 15:05:14 XGPub_FncModule.clsUseExcel.WriteDataToExcel:未将对象引用设置到对象的实例。,Line:122
+
+2018-01-23 15:05:32 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 15:06:12 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 15:11:32 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 15:12:51 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 15:13:33 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+
+2018-01-23 15:14:39 XGPub_FncModule.clsUseExcel.OpenExcel:服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT)),Line:82
+

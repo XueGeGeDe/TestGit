@@ -1,0 +1,326 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+xgSourceGrid
+</name>
+</assembly>
+<members>
+<member name="P:xgSourceGrid.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:xgSourceGrid.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:xgSourceGrid.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetColumnHeader(System.Int32,System.String,System.Int32)">
+	<summary>
+ 设置指定列的名称
+ </summary>
+	<param name="ColumnIndex">列的索引</param>
+	<param name="TextHeader">列的名称</param>
+	<param name="ColumnWidth">列的宽度，默认36</param>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetColumnHeader(System.String[])">
+	<summary>
+ 设置多列的名称
+ </summary>
+	<param name="TextHeaders">列名数组</param>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellTypeToTextBoxType(System.Int32)">
+	<summary>
+ 设置单元格的类型为文本框
+ </summary>
+	<param name="ColumnIndex">列的索引</param>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellTypeToCheckBoxType(System.Int32)">
+	<summary>
+ 设置单元格的类型为单选框
+ </summary>
+	<param name="ColumnIndex">列的索引</param>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellTypeToCheckBoxType(System.Int32,System.Int32,System.String)">
+	<summary>
+ 设置单元格的类型为单选框
+ </summary>
+	<param name="RowIndex">行的索引</param>
+	<param name="ColumnIndex">列的索引</param>
+	<param name="CheckBoxText">单选框的默认文本</param>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellTypeToCheckBoxType(System.Int32,System.Int32,System.Boolean,System.String)">
+	<summary>
+ 设置为checkbox并设置enable状态，false不能写
+ </summary>
+	<param name="RowIndex">行的索引</param>
+	<param name="ColumnIndex">列的索引</param>
+	<param name="enable">enable状态，false不能写</param>
+	<param name="CheckBoxText">单选框的默认文本</param>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellTypeToComboType(System.Int32,System.Int32,System.Object[],System.Object)">
+	<summary>
+ 设置单元格的类型为下拉框
+ </summary>
+	<param name="RowIndex">行的索引</param>
+	<param name="ColumnIndex">列的索引</param>
+	<param name="ComboBoxList">任意类型的数组值"</param>
+	<param name="CurrentText">当前显示的值</param>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellTypeToComboType(System.Int32,System.Object[],System.Object)">
+	<summary>
+ 设置单元格的类型为下拉框，整列都相同
+ </summary>
+	<param name="ColumnIndex">列的索引</param>
+	<param name="ComboBoxList">任意类型的数组值"</param>
+	<param name="CurrentText">当前显示的值</param>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellComboValueAdd(System.Int32,System.Int32,System.Object)">
+	<summary>
+ 往单元格下拉框中增加元素值
+ </summary>
+	<param name="RowIndex">行的索引</param>
+	<param name="ColumnIndex">列的索引</param>
+	<param name="Value">任意值"</param>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellComboValueModify(System.Int32,System.Int32,System.Object,System.Object)">
+	<summary>
+ 将单元格下拉框选中的值修改为新的值
+ </summary>
+	<param name="RowIndex">行的索引</param>
+	<param name="ColumnIndex">列的索引</param>
+	<param name="NewValue">任意值"</param>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellComboValueDelete(System.Int32,System.Int32)">
+	<summary>
+ 将单元格下拉框选中的值删除
+ </summary>
+	<param name="RowIndex">行的索引</param>
+	<param name="ColumnIndex">列的索引</param>
+</member><member name="M:xgSourceGrid.NewSourceGrid.GetCellComboValue(System.Int32,System.Int32)">
+	<summary>
+ 获取单元格下拉框的列表值
+ </summary>
+	<param name="RowIndex">行的索引</param>
+	<param name="ColumnIndex">列的索引</param>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellTypeToButtonType(System.Int32)">
+	<summary>
+ 设置整列单元格的类型为按钮
+ </summary>
+	<param name="ColumnIndex">列的索引</param>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellTypeToButtonType(System.Int32,System.Int32,System.String)">
+	<summary>
+ 设置指定单元格的类型为单选框
+ </summary>
+	<param name="RowIndex">行的索引</param>
+	<param name="ColumnIndex">列的索引</param>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellTypeToImageType(System.Int32)">
+	<summary>
+ 设置整列单元格的类型都为图片
+ </summary>
+	<param name="ColumnIndex">列的索引</param>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellTypeToImageType(System.Int32,System.Int32)">
+	<summary>
+ 设置单元格的类型为图片
+ </summary>
+	<param name="RowIndex">列的索引</param>
+	<param name="ColumnIndex">列的索引</param>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellValue(System.Int32,System.Object[])">
+	<summary>
+ 设置整行单元格的值
+ </summary>
+	<param name="RowIndex">行索引</param>
+	<param name="Value">值，数组类型</param>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellValue(System.Int32,System.Int32,System.Object)">
+	<summary>
+ 设置指定单元格的值
+ </summary>
+	<param name="RowIndex">行索引</param>
+	<param name="ColumnIndex">列索引</param>
+	<param name="Value">任意数据类型</param>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetCellArrayValue(System.Int32,System.Int32,System.Object[0:,0:])">
+	<summary>
+ 设置整个表单的值
+ </summary>
+	<param name="StartRow">起始行索引</param>
+	<param name="StartCol">起始列索引</param>
+	<param name="Value">二维数组，值为任意类型</param>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.GetCellValue(System.Int32,System.Int32)">
+	<summary>
+ 读指定单元格的值
+ </summary>
+	<param name="RowIndex">行索引,可选项，如果为-1，则获取整列的值</param>
+	<param name="ColumnIndex">列索引，可选项，如果为-1，则获取整行的值</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.GetCellArrayValue(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 读整个表单的值
+ </summary>
+	<param name="StartRow">起始行索引</param>
+	<param name="StartCol">起始列索引</param>
+	<param name="EndRow">结束行索引，默认-1为最大行</param>
+	<param name="EndCol">结束列索引，默认-1为最大列</param>
+	<returns>返回二维数组</returns>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.ClearAllRow">
+	<summary>
+ 清除所有行
+ </summary>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.RemoveRow(System.Int32)">
+	<summary>
+ 移除指定行
+ </summary>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.AddRow">
+	<summary>
+ 增加行
+ </summary>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.AddRowRange(System.Int32)">
+	<summary>
+ 增加多行
+ </summary>
+	<remarks></remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.ActiveCell(System.Boolean)">
+	<summary>
+ 激活最后一行第1列的单元格
+ </summary>
+	<param name="SetFocus">设置激活当前单元格是否设置鼠标焦点,可选。</param>
+	<remarks>设置鼠标焦点在快速增加行时将导致无法操作其他控件，谨慎使用</remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.ActiveCell(System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ 激活指定单元格
+ </summary>
+	<param name="RowIndex">行索引</param>
+	<param name="ColumnIndex">列索引</param>
+	<param name="SetFocus">设置激活当前单元格是否设置鼠标焦点,可选。</param>
+	<remarks>设置鼠标焦点在快速增加行时将导致无法操作其他控件，谨慎使用</remarks>
+</member><member name="M:xgSourceGrid.NewSourceGrid.SetExportDataToFile(System.String,xgSourceGrid.NewSourceGrid.FileType)">
+	<summary>
+ 导出表单数据为文件，类型为htm,csv,bmp三种
+ </summary>
+	<param name="ExportFilePath">完整的文件名</param>
+	<param name="mFileType">文件类型</param>
+	<returns></returns>
+</member><member name="P:xgSourceGrid.NewSourceGrid.AddRightMenu">
+	<summary>
+ 是否显示右键菜单
+ </summary>
+	<value></value>
+	<remarks></remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.AddRightMenu(System.String)">
+	<summary>
+ 是否显示右键菜单
+ </summary>
+	<value></value>
+	<remarks></remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.WordWrap(System.Int32,System.Int32)">
+	<summary>
+ 单元格设置自动换行
+ </summary>
+	<param name="RowIndex">默认所有行</param>
+	<param name="ColumnIndex">默认所有列</param>
+	<value></value>
+	<remarks></remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.CellOnlyRead">
+	<summary>
+ 所有单位格设置是否为只读
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.CellOnlyRead(System.Int32,System.Int32)">
+	<summary>
+ 指定任何一列是否为只读
+ </summary>
+	<param name="ColIndex"></param>
+	<value></value>
+	<remarks></remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.SetCellOnlyRead(System.Int32,System.Int32)">
+	<summary>
+ 指定单位格设置是否为只读
+ </summary>
+	<param name="RowIndex">行索引</param>
+	<param name="ColumnIndex">列索引</param>
+	<value>True:为只读,False:可编辑</value>
+	<remarks>行列索引为-1表示所有单元格为只读，指定的行或列索引大于0则为行或列只读</remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.ColumnTextAlignment(System.Int32)">
+	<summary>
+ 设置列的文本排列
+ </summary>
+	<param name="ColumnIndex">指定列，默认-1为所有列</param>
+	<value>排列方式的枚举值</value>
+	<remarks></remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.SetCellFont(System.Int32,System.Int32)">
+	<summary>
+ 设置单元格的文本字体
+ </summary>
+	<param name="RowIndex">指定列,可选项，默认-1为所有行</param>
+	<param name="ColumnIndex">指定列，可选项，默认-1为所有列</param>
+	<value>系统字体类型</value>
+	<remarks></remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.MergeCellsALL(System.Int32)">
+	<summary>
+ 对当前指定列中所有单元格做合并检查并合并相同的单元格。
+ </summary>
+	<param name="ColumnIndex"></param>
+	<remarks></remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.MergeCells(System.Int32)">
+	<summary>
+ 对当前指定列中增加行后做合并检查并合并相同的单元格。
+ </summary>
+	<param name="ColumnIndex"></param>
+	<remarks></remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.ResizeColumn">
+	<summary>
+ 是否容许调整列宽大小
+ </summary>
+</member><member name="P:xgSourceGrid.NewSourceGrid.ResizeRow">
+	<summary>
+ 是否容许调整行宽大小
+ </summary>
+</member><member name="P:xgSourceGrid.NewSourceGrid.MaxRow">
+	<summary>
+ 最大行
+ </summary>
+</member><member name="P:xgSourceGrid.NewSourceGrid.MaxColumn">
+	<summary>
+ 最大列
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.SetCellBackColor(System.Int32,System.Int32)">
+	<summary>
+ 设置指定行单元格的背景颜色
+ </summary>
+	<param name="RowIndex">行索引</param>
+	<remarks></remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.SetCellForeColor(System.Int32,System.Int32)">
+	<summary>
+ 设置指定行单元格的字体颜色
+ </summary>
+	<param name="RowIndex">行索引</param>
+	<remarks></remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.RowHeight">
+	<summary>
+ 设置或读取所有行的高度
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:xgSourceGrid.NewSourceGrid.SetCheckBoxTypeEnable(System.Int32,System.Int32)">
+	<summary>
+ 设置单元格的CheckBox类型状态
+ </summary>
+	<param name="RowIndex">行索引,整列设置,如果为-1则整列设置</param>
+	<param name="ColumnIndex">列索引,整列设置</param>
+</member>
+</members>
+</doc>

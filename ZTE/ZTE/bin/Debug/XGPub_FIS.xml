@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+XGPub_FIS
+</name>
+</assembly>
+<members>
+<member name="P:XGPub_FIS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:XGPub_FIS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:XGPub_FIS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:XGPub_FIS.FIS.GetPartNoByLotBarCode(System.String,System.String@)">
+	<summary>
+ 根据工单号条形码获取产品型号
+ </summary>
+	<param name="barcode">工单号SN</param>
+	<param name="NewPartNo">返回产品型号</param>
+	<returns>Ture:获取成功,False:获取失败</returns>
+</member><member name="M:XGPub_FIS.FIS.GetNewSN(System.String@)">
+	<summary>
+ 获取自动生成的产品序列号
+ </summary>
+	<param name="p_NewSN">返回新的序列号</param>
+	<returns>Ture:获取成功,False:获取失败</returns>
+</member><member name="M:XGPub_FIS.FIS.GetNewSN(System.String,System.String,System.String,System.String@)">
+	<summary>
+ 获取自动生成的产品序列号
+ </summary>
+	<param name="p_FirmwareName">固件名称</param>
+	<param name="p_FirmwareMD5">固件MD5码</param>
+	<param name="p_LotNO">生产单号</param>
+	<param name="p_NewSN">返回新的序列号</param>
+	<returns>Ture:获取成功,False:获取失败</returns>
+</member><member name="M:XGPub_FIS.FIS.GetConnectionString">
+	<summary>
+ 获取数据库连接字符串
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:XGPub_FIS.FIS.VerifySoftware(System.String,System.String,System.String,System.String,System.String@)">
+	<summary>
+ 校验软件
+ </summary>
+	<param name="SoftwareName">软件名称</param>
+	<param name="SoftwareVer">软件版本</param>
+	<param name="MD5">软件MD5码</param>
+	<param name="CUPID">目标计算机CPUID</param>
+	<param name="ErrorInfor">错误信息</param>
+	<returns>0:表示校验成功;1:表示调试未发现但可使用;其他值:表示校验失败</returns>
+</member><member name="M:XGPub_FIS.FIS.SendMail(System.String,System.String,System.String,System.String)">
+	<summary>
+ 发送电子邮件
+ </summary>
+	<param name="MailTo">收件人邮件地址,多个收件人地址以分号(;)分开</param>
+	<param name="MailCC">抄送收件人邮件地址,多个收件人地址以分号(;)分开</param>
+	<param name="Subject">电子邮件主题</param>
+	<param name="Body">电子邮件正文</param>
+	<returns>True:表示发送成功,False:表示发送失败</returns>
+</member><member name="M:XGPub_FIS.FIS.VerifyDll(System.String,System.String,System.String,System.String@)">
+	<summary>
+ 校验DLL
+ </summary>
+	<param name="DllName">DLL名称</param>
+	<param name="DllVer">DLL版本</param>
+	<param name="MD5">DLL MD5码</param>
+	<param name="ErrorInfor">返回错误信息</param>
+	<returns>Ture:表示校验成功,False:表示校验失败</returns>
+</member><member name="M:XGPub_FIS.FIS.CheckUser(System.String,System.String,System.String@)">
+	<summary>
+ 校验登录用户名
+ </summary>
+	<param name="UserID">用户名</param>
+	<param name="Password">密码</param>
+	<param name="ErrorInfor">返回错误信息</param>
+	<returns>0:表示校验成功;1:表示调试未发现但可使用;其他值:表示校验失败</returns>
+</member>
+</members>
+</doc>

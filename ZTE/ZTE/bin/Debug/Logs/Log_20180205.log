@@ -1,0 +1,18 @@
+2018-02-05 14:02:45 XGPub_FncModule.clsDBControl.FetchAllData:在向服务器发送请求时发生传输级错误。 (provider: Session Provider, error: 19 - 物理连接不可用),Line:103
+
+2018-02-05 14:03:18 XGPub_FncModule.clsDBControl.FetchAllData:BeginExecuteReader 要求已打开且可用的 Connection。连接的当前状态为已关闭。,Line:103
+
+2018-02-05 14:03:38 XGPub_FncModule.clsDBControl.FetchAllData:BeginExecuteReader 要求已打开且可用的 Connection。连接的当前状态为已关闭。,Line:103
+
+2018-02-05 16:00:03 XGPub_FncModule.clsDBControl.FetchAllData:' and (Temperature between -50 and 10 and modChannel =' 附近有语法错误。
+字符串 '))' 后的引号不完整。,Line:109
+
+2018-02-05 16:22:12 XGPub_FncModule.clsDBControl.FetchAllData:' and (Temperature between -50 and 10 and modChannel =' 附近有语法错误。
+字符串 '))' 后的引号不完整。,Line:109
+
+2018-02-05 16:22:26 XGPub_FncModule.clsDBControl.FetchAllData:' and (Temperature between -50 and 10 and modChannel =' 附近有语法错误。
+字符串 '))' 后的引号不完整。,Line:109
+
+2018-02-05 16:26:09 XGPub_FncModule.clsDBControl.FetchAllData:字符串 ' and (Temperature between -50 and 10 and modChannel =0))' 后的引号不完整。
+' and (Temperature between -50 and 10 and modChannel =0))' 附近有语法错误。,Line:109
+

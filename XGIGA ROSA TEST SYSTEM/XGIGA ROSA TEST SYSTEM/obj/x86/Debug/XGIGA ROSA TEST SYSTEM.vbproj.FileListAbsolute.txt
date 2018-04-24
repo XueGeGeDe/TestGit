@@ -1,0 +1,45 @@
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Debug\XGIGAROSATESTSYSTEM.exe
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Debug\XGIGAROSATESTSYSTEM.xml
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Debug\XGIGAROSATESTSYSTEM.pdb
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\bin\Debug\XGIGAROSATESTSYSTEM.exe
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\bin\Debug\XGIGAROSATESTSYSTEM.pdb
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\bin\Debug\XGIGAROSATESTSYSTEM.xml
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\bin\Debug\XGPub_FIS.dll
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\bin\Debug\XGPub_FIS.pdb
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\bin\Debug\XGPub_FIS.xml
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\bin\Debug\XGPub_FncModule.pdb
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\bin\Debug\XGPub_FncModule.xml
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\bin\Debug\xgSourceGrid.pdb
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\bin\Debug\xgSourceGrid.xml
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Debug\XGIGA ROSA TEST SYSTEM.vbprojResolveAssemblyReference.cache
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Debug\XGIGA ROSA TEST SYSTEM.vbproj.GenerateResource.Cache
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Debug\XGIGAROSATESTSYSTEM.frmLogin.resources
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Debug\XGIGAROSATESTSYSTEM.frmMain.resources
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Debug\XGIGAROSATESTSYSTEM.frmMsgProgress.resources
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Debug\XGIGAROSATESTSYSTEM.frmQuery.resources
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Debug\XGIGAROSATESTSYSTEM.LightInput.resources
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Debug\XGIGAROSATESTSYSTEM.Resources.resources
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Debug\XGIGAROSATESTSYSTEM.RelaysControl.resources
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\bin\Debug\XGPub_FIS.pdb
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\bin\Debug\XGPub_FIS.xml
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\bin\Debug\XGPub_FncModule.pdb
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\bin\Debug\XGPub_FncModule.xml
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\bin\Debug\xgSourceGrid.pdb
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\bin\Debug\xgSourceGrid.xml
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\obj\x86\Debug\XGIGA ROSA TEST SYSTEM.vbprojResolveAssemblyReference.cache
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\obj\x86\Debug\XGIGAROSATESTSYSTEM.frmLogin.resources
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\obj\x86\Debug\XGIGAROSATESTSYSTEM.frmMain.resources
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\obj\x86\Debug\XGIGAROSATESTSYSTEM.frmMsgProgress.resources
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\obj\x86\Debug\XGIGAROSATESTSYSTEM.frmQuery.resources
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\obj\x86\Debug\XGIGAROSATESTSYSTEM.LightInput.resources
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\obj\x86\Debug\XGIGAROSATESTSYSTEM.Resources.resources
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\obj\x86\Debug\XGIGAROSATESTSYSTEM.RelaysControl.resources
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\obj\x86\Debug\XGIGA ROSA TEST SYSTEM.vbproj.GenerateResource.Cache
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\bin\Debug\XGIGA ROSA TEST SYSTEM.exe
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\bin\Debug\XGIGA ROSA TEST SYSTEM.pdb
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\bin\Debug\XGIGA ROSA TEST SYSTEM.xml
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\obj\x86\Debug\XGIGA ROSA TEST SYSTEM.exe
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\obj\x86\Debug\XGIGA ROSA TEST SYSTEM.xml
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\obj\x86\Debug\XGIGA ROSA TEST SYSTEM.pdb
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\obj\x86\Debug\XGIGAROSATESTSYSTEM.ConfigManager.resources
+E:\vs2010workspace\XGIGA ROSA TEST SYSTEM\XGIGA ROSA TEST SYSTEM\bin\Debug\XGPub_FncModule.dll

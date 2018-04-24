@@ -1,0 +1,10 @@
+2018-01-29 11:17:06 XGPub_FncModule.clsDBControl.FetchAllData:在应使用条件的上下文(在 'between20and35' 附近)中指定了非布尔类型的表达式。,Line:109
+
+2018-01-29 11:17:59 XGPub_FncModule.clsDBControl.FetchAllData:在应使用条件的上下文(在 'between20and35' 附近)中指定了非布尔类型的表达式。,Line:109
+
+2018-01-29 11:48:09 XGPub_FncModule.clsDBControl.FetchAllData:'between20and35' 附近有语法错误。,Line:109
+
+2018-01-29 11:50:45 XGPub_FncModule.clsDBControl.FetchAllData:'between20and35' 附近有语法错误。,Line:109
+
+2018-01-29 11:56:26 XGPub_FncModule.clsDBControl.FetchAllData:'between20and35' 附近有语法错误。,Line:109
+

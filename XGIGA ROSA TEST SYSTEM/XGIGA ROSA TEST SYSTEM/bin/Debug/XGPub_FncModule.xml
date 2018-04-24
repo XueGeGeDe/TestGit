@@ -1,0 +1,830 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+XGPub_FncModule
+</name>
+</assembly>
+<members>
+<member name="M:XGPub_FncModule.clsArray.DeleteFromArray(System.Array,System.Int32,System.Int32)">
+	<summary>
+ 删除一维数组中一个或多个元素
+ </summary>
+	<remarks>输入数组为空或数据异常将返回Nothing</remarks>
+	<param name="InArray">任意类型的一维数组</param>
+	<param name="Index">元素索引，默认值为0</param>
+	<param name="Length">长度，默认值为1</param>
+	<returns>输入数组相同类型的新数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.InitializeArray(System.Object,System.Int32)">
+	<summary>
+ 数组初始化
+ </summary>
+	<param name="element">任意数据类型的变量或值</param>
+	<param name="Length">新数组长度</param>
+	<returns>与element数据类型相同的新数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.Search1DArray(System.Array,System.Object,System.Int32)">
+	<summary>
+ 搜索一维数组
+ </summary>
+	<param name="InArray">任意类型的一维数组</param>
+	<param name="element">要查找的数据</param>
+	<param name="StartIndex">在数据查找的起始位置,默认为0</param>
+	<returns>=0:找到该数据在数组中的位置;-1:没有找到该数据</returns>
+</member><member name="M:XGPub_FncModule.clsArray.ReplaceArray(System.Array,System.Int32,System.Object)">
+	<summary>
+ 替换一维数组中指定位置的值
+ </summary>
+	<remarks>
+ 1:输入数组为空或数据错误返回NOTHING.
+ 2:参数3如果是数组,那么索引参数2+参数3的长度必须小于或等于原数组的长度.
+ 3:只能在原数组长度范围内进行替换
+ </remarks>
+	<param name="InArray">任意类型的一维数组</param>
+	<param name="Index">要替换的数组位置索引</param>
+	<param name="NewElementOrSubArray">新元素或数组</param>
+	<returns>输入数组类型相同的替换后的新数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.InsertIntoArray(System.Array,System.Int32,System.Object)">
+	<summary>
+ 插入数据到一维数组中的指定位置
+ </summary>
+	<remarks>
+ 1:输入数组为空或数据错误范围NOTHING.
+ 2:参数3如果是数组,那么索引参数2+参数3的长度必须小于或等于原数组的长度.
+ </remarks>
+	<param name="InArray">任意类型的一维数组</param>
+	<param name="Index">要插入的数组位置索引</param>
+	<param name="NewElementOrSubArray">新元素或数组</param>
+	<returns>输入数组类型相同的插入了新数据的新数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.ObjectToDouble(System.Array)">
+	<summary>
+ 任意类型的一维数组转换为双精度(Double)的数组
+ </summary>
+	<remarks>输入数组为空或数据错误返回NOTHINGG.</remarks>
+	<param name="InArray">任意类型的一维数组</param>
+	<returns>双精度(Double)的数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.ObjectToSingle(System.Array)">
+	<summary>
+ 任意类型的一维数组转换为单精度(Single)的数组
+ </summary>
+	<remarks>输入数组为空或数据错误返回NOTHING.</remarks>
+	<param name="InArray">任意类型的一维数组</param>
+	<returns>单精度(Single)的数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.ObjectToInteger(System.Array)">
+	<summary>
+ 任意类型的一维数组转换为整型(Integer)的数组
+ </summary>
+	<remarks>输入数组为空或数据错误返回NOTHING.</remarks>
+	<param name="InArray">任意类型的一维数组</param>
+	<returns>整型(Integer)的数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.ObjectToString(System.Array)">
+	<summary>
+ 任意类型的一维数组转换为字符串(String)的数组
+ </summary>
+	<remarks>输入数组为空或数据错误返回NOTHING.</remarks>
+	<param name="InArray">任意类型的一维数组</param>
+	<returns>字符串(String)的数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.ObjectToByte(System.Array)">
+	<summary>
+ 任意类型的一维数组转换为无符号八位整型(Byte)的数组
+ </summary>
+	<remarks>输入数组为空或数据错误返回NOTHING.</remarks>
+	<param name="InArray">任意类型的一维数组</param>
+	<returns>无符号八位整型(Byte)的数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.ObjectToBoolean(System.Array)">
+	<summary>
+ 任意类型一维数组转换为布尔型数组
+ </summary>
+	<remarks>输入数组为空或数据错误返回NOTHING.</remarks>
+	<param name="InArray">任意类型的一维数组</param>
+	<returns>无符号八位整型(Byte)的数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.StrCompA(System.Object,System.Object)">
+	<summary>
+ 比较是否相等
+ </summary>
+	<param name="srcObj">原比较对象</param>
+	<param name="DestObj">目标对象</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:XGPub_FncModule.clsArray.Search2DArray(System.Object[0:,0:],System.Object,System.Int32,System.Int32)">
+	<summary>
+ 搜索二维数组
+ </summary>
+	<remarks>输入数组为空或数据错误范围,以及没有找到则返回NOTHING.可以是单行或多行,单列或多列的数据</remarks>
+	<param name="InArray">任意类型的二维数组</param>
+	<param name="element">要搜索的值</param>
+	<param name="IndexRow">搜索的起始行</param>
+	<param name="IndexCol">搜索的起始列</param>
+	<returns>输入数组相同类型的新数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.InsertInto2DArray(System.Object[0:,0:],System.Int32,System.Object)">
+	<summary>
+ 插入数据到二维数组指定位置
+ </summary>
+	<remarks>Index指的是行位置；NewElementOrSubArray必须为单变量或二维数组,单变量时整行值相同；输入数组为空或数据错误,以及没有找到则返回NOTHING。</remarks>
+	<param name="InArray">任意类型的二维数组</param>
+	<param name="Index">要插入二维数组的位置索引，只能插入</param>
+	<param name="NewElementOrSubArray">新的元素或数组</param>
+	<returns>输入数组相同类型的新二维数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.Index2DArray(System.Object[0:,0:],System.Int32,System.Int32)">
+	<summary>
+ 取二维数组中的一维数组
+ </summary>
+	<remarks>Row,Col都大于0时，以及输入数组为空或数据错误则返回NOTHING。</remarks>
+	<param name="InArray">任意类型的二维数组</param>
+	<param name="Row">行的索引</param>
+	<param name="Col">列的索引</param>
+	<returns>输入数组数据类型相同的单行或单列的新一维数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.ArraySubset(System.Array,System.Int32,System.Int32)">
+	<summary>
+ 取一维数组中指定长度的子数组
+ </summary>
+	<remarks>数组为空或数据异常时返回Nothing,同时新的数组大小必须在原数组的范围内</remarks>
+	<param name="InArray">任意类型的一维数组</param>
+	<param name="Index">元素索引(即从输入数组取数据的起始位置)</param>
+	<param name="Length">新数组的长度</param>
+	<returns>输入数组类型相同的子数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.Array2DSubset(System.Object[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 取二维数组中指定长度的子二维数组
+ </summary>
+	<remarks>如果输入数组为空或者数据异常将返回Nothing</remarks>
+ -------------------------------------取2D数组中一定长度的2D数组----------------------------------------------------------
+ <param name="InArray">任意类型的二维数组</param>qu
+ <param name="RowIndex">起始行的索引,默认值为0</param>
+	<param name="RowLength">行的数量,默认值为0</param>
+	<param name="ColIndex">起始列的索引,默认值为0</param>
+	<param name="ColLength">列的数量,默认值为0</param>
+	<returns>同输入数组相同类型的新二维数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.ByteArrayToString(System.Byte[])">
+	<summary>
+ 无符号的八位整型数组转换为字符串
+ </summary>
+	<remarks>数组为空或数据异常返回空字符</remarks>
+	<param name="ByteArray">无符号的八位整型数组</param>
+	<returns>ASCII的字符串</returns>
+</member><member name="M:XGPub_FncModule.clsArray.ArrayDelRepeat(System.Array)">
+	<summary>
+ 删除一维数组中重复的数据
+ </summary>
+	<param name="InArray">任意类型的一维数组</param>
+	<returns>无重复数据的一维数组</returns>
+ -------------------------------------------删除数组中重复的数据------------------------------------------------------------
+
+</member><member name="M:XGPub_FncModule.clsArray.ArrayCompare(System.Array,System.Object)">
+	<summary>
+ 比较两个一维数组是否相同
+ </summary>
+	<remarks>如果第二个参数为数组变量时，比较两个数组中的每个元素是否相等，否则为第一个数组中的所有元素和第二个变量比较是否相等。</remarks>
+ 判断两个数组是否相等
+ <param name="Array1">任意类型的一维数组</param>
+	<param name="ElementOrArray2">一维数组或普通变量</param>
+	<returns>True:两个数组相同;False:两个数组不同</returns>
+</member><member name="M:XGPub_FncModule.clsArray.Sort2DArray(System.Object[0:,0:],System.Int32)">
+	<summary>
+ 二维数组按从小到大排序（冒泡法排序
+ </summary>
+	<remarks>输入数组为空或数据异常将返回Nothing</remarks>
+	<param name="InArray">任意类型的二维数组</param>
+	<param name="ColIndex">指定排序的列的索引</param>
+	<returns>输入数组相同类型的新数组</returns>
+</member><member name="M:XGPub_FncModule.clsArray.StringArrayToUpper(System.Array)">
+	<summary>
+ 将字符串数组转换为大写后的数组
+ </summary>
+	<param name="strArray">1D字符串数组</param>
+	<returns>转换为大写后的数组</returns>
+	<remarks></remarks>
+</member><member name="T:XGPub_FncModule.clsArray">
+	<summary>
+ 数组操作类(更全面的数组操作功能)
+ </summary>
+</member><member name="P:XGPub_FncModule.My.Resources.Resources.ResourceManager">
+	<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member><member name="P:XGPub_FncModule.My.Resources.Resources.Culture">
+	<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="T:XGPub_FncModule.My.Resources.Resources">
+	<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member><member name="M:XGPub_FncModule.clsConfigFile.ReadConfig(System.String,System.String,System.String,System.Object)">
+	<summary>
+ 读配置文件
+ </summary>
+	<remarks>没有读到配置文件的相关信息则返回默认值</remarks>
+ 读配置
+ <param name="filename">配置文件的完整路径和文件名</param>
+	<param name="Section">节点</param>
+	<param name="KeyName">关键字</param>
+	<param name="DefaultValue">默认值</param>
+	<returns>字符串的结果</returns>
+</member><member name="M:XGPub_FncModule.clsConfigFile.WriteConfig(System.String,System.String,System.String,System.Object)">
+	<summary>
+ 写配置文件
+ </summary>
+	<param name="filename">配置文件的完整路径和文件名</param>
+	<param name="Section">节点</param>
+	<param name="KeyName">关键字</param>
+	<param name="KeyValue">任意类型的值</param>
+	<returns>0:表示成功;否则不成功。</returns>
+ 写配置
+
+</member><member name="T:XGPub_FncModule.clsConfigFile">
+	<summary>
+ 配置文件读写操作类
+ </summary>
+</member><member name="M:XGPub_FncModule.clsSpecPart.SearchProductSPEC(System.Object[0:,0:],System.Object,System.Object,System.Object)">
+	<summary>
+ 搜索产品SPEC中的参数
+ </summary>
+	<param name="InArray">任意类型的二维数组</param>
+	<param name="Parameter">要查找的参数</param>
+	<param name="Condition">参数的条件</param>
+	<param name="Key">关键字</param>
+	<returns>搜索到得新的二维数组，没有找到则返回NOTHING</returns>
+ 根据条件处理产品详细的SPEC
+
+</member><member name="M:XGPub_FncModule.clsSpecPart.SearchTempAndVccPoint(System.Object[0:,0:],System.Object[],System.Object[])">
+	<summary>
+ 搜索二维数组中的电压与温度点
+ </summary>
+	<param name="InArray">任意类型的二维数组</param>
+	<param name="Temp_Point">可重复的温度点</param>
+	<param name="Vcc_Point">可重复的电压点</param>
+ 查找SPEC中的温度点和电压点
+ <returns>0:表示成功;-1:表示失败</returns>
+</member><member name="T:XGPub_FncModule.clsSpecPart">
+	<summary>
+ 产品SPEC搜索操作类
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EU_List_Type.KeyName">
+	<summary>
+ 设备类型关键字
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.EU_List_Type.DllObj">
+	<summary>
+ 设备对象
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.EU_List_Type.strAddress">
+	<summary>
+ 设备地址
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.EU_List_Type.DllName">
+	<summary>
+ 设备DLL名称（类名）
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EU_List_Type.isEnable">
+	<summary>
+ 当前设备是否启用
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EU_List_Type.Channel">
+	<summary>
+ 通道
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EU_List_Type.arrCondtion">
+	<summary>
+ 设备条件
+ </summary>
+	<remarks></remarks>
+</member><member name="T:XGPub_FncModule.clsStructDef.EU_List_Type">
+	<summary>
+ 设备清单结构体
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.ErrorOut_Type.Status">
+	<summary>
+  '错误标志位,True表示错误，False表示无错误
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.ErrorOut_Type.Code">
+	<summary>
+ 错误代码,"0"表示没有错误,否则表示有误.
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.ErrorOut_Type.Source">
+	<summary>
+  错误描述
+ </summary>
+</member><member name="T:XGPub_FncModule.clsStructDef.ErrorOut_Type">
+	<summary>
+ 错误信息结构体
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.sSN">
+	<summary>
+ 产品序列号
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.CurrentModuleLane">
+	<summary>
+ 模块当前通道
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.fTpyVal">
+	<summary>
+ 典型值
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.fFactVal">
+	<summary>
+ 实际值
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.fMaxVal">
+	<summary>
+ 最大值
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.fMinVal">
+	<summary>
+ 最小值
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.iDAC_Val">
+	<summary>
+ DAC/ADC值
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.bSubResult">
+	<summary>
+ 测试结果
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.sComment">
+	<summary>
+ 调试或测试等结果的描述
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.sTestParam">
+	<summary>
+ 测试参数
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.isStop">
+	<summary>
+ 是否停止标志位
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.isUpdateRow">
+	<summary>
+ 是否更新数据行标志位
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.CurrentRow">
+	<summary>
+ 数据列表的当前行
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.UpdateSpecRow">
+	<summary>
+ 更新数据到指定行
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.isUpdateResultImage">
+	<summary>
+ 是否更新测试结果的图片
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.Temperature">
+	<summary>
+ 实际温度
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.EventData_Type.Vcc">
+	<summary>
+ 实际电压
+ </summary>
+	<remarks></remarks>
+</member><member name="T:XGPub_FncModule.clsStructDef.EventData_Type">
+	<summary>
+ 事件上报数据
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.LotNo">
+	<summary>
+ 工单号
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.ProductType">
+	<summary>
+ 产品类型
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.sPartNo">
+	<summary>
+ 产品型号
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.sSN">
+	<summary>
+ 产品序列号
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.fTemp">
+	<summary>
+ 温度
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.fVcc">
+	<summary>
+ 电压
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.sCurrentTxRate">
+	<summary>
+ 当前发射速率
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.sCurrentRxRate">
+	<summary>
+ 当前接收速率
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.sUserID">
+	<summary>
+ 用户名
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.CurrentTestItem">
+	<summary>
+ 当前测试项
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.FunctionCondition">
+	<summary>
+ 当前函数的测试条件
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.iStartTime">
+	<summary>
+ 测试起始时间
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.ExcelFilePath">
+	<summary>
+ EXCEL文件路径
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.XmlFilePath">
+	<summary>
+ XML文件路径
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.iniFilePath">
+	<summary>
+ INI文件路径
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.sFileVer">
+	<summary>
+ 文件版本
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.sFileName">
+	<summary>
+ 文件名
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.sComputerName">
+	<summary>
+ 计算机名
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.sConnectionString">
+	<summary>
+ SQL连接字符串
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.vTestParaList">
+	<summary>
+ 所有测试参数列表
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.vTuningParaList">
+	<summary>
+ 所有调试参数列表
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.AssistantPara">
+	<summary>
+ 所有的辅助调试参数
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.McuProtObj">
+	<summary>
+ MCU协议对象
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.EVB_Obj">
+	<summary>
+ 测试板对象
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.EVB_Address">
+	<summary>
+ 测试板通信地址
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.vBasicParaList">
+	<summary>
+ 所有基本参数列表
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.vStationConfig">
+	<summary>
+ 所有测试步骤列表
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.vEData">
+	<summary>
+ EEPROM DATA
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.TxRxCalData">
+	<summary>
+ 收发校准数据
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.EU_List">
+	<summary>
+ 设备列表
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.KeyData">
+	<summary>
+ 设备关键字数据
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.isDebugMode">
+	<summary>
+ 是否是研发调试
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.LastTestTxPo">
+	<summary>
+ 上一次测试的发射光功率
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.LastTestSens">
+	<summary>
+ 上一次测试的灵敏度
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.BinFilePath">
+	<summary>
+ 程序集DLL文件路径
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.DCA_Factor">
+	<summary>
+ 示波器校准因子
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.fDCA_Cal">
+	<summary>
+ 示波器输入光校准值
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.FileServerInfor">
+	<summary>
+ 眼图信息
+ </summary>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.MainForm">
+	<summary>
+ 主程序窗体对象
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.CurrentChannel">
+	<summary>
+ 当前测试板通道
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.ModLanesCount">
+	<summary>
+ 模块通道数
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.CurrentModuleLane">
+	<summary>
+ 当前模块通道
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.DCA_SerialNumber">
+	<summary>
+ 示波器模块序列号
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.Excel">
+	<summary>
+ EXCEL对象
+ </summary>
+	<remarks></remarks>
+</member><member name="F:XGPub_FncModule.clsStructDef.QueryPara_Type.PasswordVal">
+	<summary>
+ MCU高级密码或者写码密码
+ </summary>
+	<remarks></remarks>
+</member><member name="T:XGPub_FncModule.clsStructDef.QueryPara_Type">
+	<summary>
+ 参数结构体
+ </summary>
+	<remarks></remarks>
+</member><member name="T:XGPub_FncModule.clsStructDef.StructFileServerInfor">
+	<summary>
+ 文件服务器信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:XGPub_FncModule.clsXML.WriteDataToXML(System.String,XGPub_FncModule.clsStructDef.QueryPara_Type,System.String,System.String)">
+	<summary>
+ 写数据到XML
+ </summary>
+	<param name="xmlFileName">xml文件名</param>
+	<param name="QueryData">数据结构体</param>
+	<param name="elementName">元素名称</param>
+	<param name="elementValue">元素值</param>
+	<returns>True:写数据成功,False:写数据失败。</returns>
+	<remarks></remarks>
+</member><member name="M:XGPub_FncModule.clsXML.WriteDataToXML(System.String,System.String,System.String,System.String)">
+	<summary>
+ 写数据到XML的指定元素
+ </summary>
+	<param name="xmlFileName">xml文件名</param>
+	<param name="ItemName">主节点名称</param>
+	<param name="elementName">子元素名称</param>
+	<param name="elementValue">元素值</param>
+	<returns>True:写数据成功,False:写数据失败。</returns>
+	<remarks></remarks>
+</member><member name="M:XGPub_FncModule.clsXML.ReadDataFromXML(System.String,System.Object[0:,0:]@)">
+	<summary>
+ 从XML文件中读所有元素的数据
+ </summary>
+	<param name="xmlFileName">xml文件名</param>
+	<param name="Data">二维数据</param>
+	<returns>True:读取成功,False:读取失败。</returns>
+	<remarks>二维数据第1列为元素名称，第2列为对应的数据</remarks>
+</member><member name="M:XGPub_FncModule.clsXML.ReadDataFromXML(System.String,System.String,System.String)">
+	<summary>
+ 从XML文件中读指定元素的数据
+ </summary>
+	<param name="xmlFileName">xml文件名</param>
+	<param name="ItemName">主节点名称</param>
+	<param name="elementName">子元素名称</param>
+	<remarks></remarks>
+</member><member name="M:XGPub_FncModule.clsUseExcel.CloseExcel(System.Boolean)">
+	<summary>
+ 关闭Excel工作薄
+ </summary>
+	<param name="ExcelQuit">是否退出Excel的标志位，可选项,默认为False</param>
+	<returns>Boolean型，True表示成功,False表示失败</returns>
+</member><member name="M:XGPub_FncModule.clsUseExcel.QuitExcel">
+	<summary>
+ Excel应用程序退出
+ </summary>
+	<returns>Boolean型，True表示成功,False表示失败</returns>
+</member><member name="M:XGPub_FncModule.clsUseExcel.OpenExcel(System.String)">
+	<summary>
+ 打开Excel应用程序同时打开2007 EXCEL文件
+ </summary>
+	<param name="FileName">Excel文件的完整路径</param>
+	<returns>Boolean型，True表示成功,False表示失败</returns>
+	<remarks>如果Excel应用程序已经打开或工作薄已经打开，则直接该对象进行后续的操作；</remarks>
+</member><member name="P:XGPub_FncModule.clsUseExcel.ExcelFormula">
+	<summary>
+ 获取EXCEL的公式功能。
+ </summary>
+	<returns>WorksheetFunction</returns>
+</member><member name="M:XGPub_FncModule.clsUseExcel.WriteDataToExcel(System.String,System.String,System.Object,System.Boolean,System.Boolean)">
+	<summary>
+ 写数据到Excel工作表中
+ </summary>
+	<param name="SheetName">工作表的名称</param>
+	<param name="TargetCell">目标单元格范围或单元格范围的名称</param>
+	<param name="inData">输入数据，可以是一维或二维数组，也可以是单个变量值</param>
+	<param name="SaveChange">写入数据后是否保存标志位，可选项，默认为True保存</param>
+	<param name="ClearData">是否写数据前先清除数据，默认为清除</param>
+	<returns>Boolean型，True表示成功,False表示失败</returns>
+</member><member name="M:XGPub_FncModule.clsUseExcel.ReadDataFromExcel(System.String,System.String,System.Object@,System.Int32,System.Int32)">
+	<summary>
+ 从EXCEL工作表中指定位置读出数据
+ </summary>
+	<param name="SheetName">工作表名称</param>
+	<param name="TargetCell">目标单元格或范围（也可是单元格或范围的名称）</param>
+	<param name="OutData">读取的数据，输出为二维数组</param>
+	<param name="Row2">设置数据读取的行数，可选项，默认为0，不设置</param>
+	<param name="Col2">设置数据读取的列数，可选项，默认为0，不设置</param>
+	<returns>Boolean型，True表示成功,False表示失败</returns>
+	<remarks>示例：ReadDataFromExcel("Table","A1",OutData，255,2)表示从A1开始读256行3列")</remarks>
+</member><member name="M:XGPub_FncModule.clsUseExcel.ReadProductTestPara(XGPub_FncModule.clsUseExcel.ParaType,System.Object[0:,0:]@)">
+	<summary>
+ 读产品的调测试参数
+ </summary>
+	<param name="OutData">读到的数据，为一维数组而元素则为二维数组</param>
+	<returns>Boolean型，True表示成功,False表示失败</returns>
+	<remarks>没有读到的则OutData=Nothing</remarks>
+</member><member name="M:XGPub_FncModule.clsUseExcel.ReadProductBasicPara(System.Object[]@)">
+	<summary>
+ 读产品的基本特性
+ </summary>
+	<param name="OutData">读到的数据，为一维数组</param>
+	<returns>Boolean型，True表示成功,False表示失败</returns>
+	<remarks>没有读到的则OutData=Nothing</remarks>
+</member><member name="M:XGPub_FncModule.clsUseExcel.ReadProductAssistantSpec(System.Object[0:,0:]@)">
+	<summary>
+ 读产品的辅助参数
+ </summary>
+	<param name="OutData">读到的数据，为二维数组</param>
+	<returns>Boolean型，True表示成功,False表示失败</returns>
+	<remarks>没有读到的则OutData=Nothing；数组中第二列为每组配置数据的一维数组数据</remarks>
+</member><member name="M:XGPub_FncModule.clsUseExcel.ReadStationConfig(System.Object[0:,0:]@,System.Collections.Generic.List{System.String}@,System.Collections.Generic.List{System.Boolean}@)">
+	<summary>
+ 读工序配置
+ </summary>
+	<param name="OutData">读到的数据，为二维数组</param>
+	<returns>Boolean型，True表示成功,False表示失败</returns>
+	<remarks>没有读到的则OutData=Nothing</remarks>
+</member><member name="M:XGPub_FncModule.clsUseExcel.GetStationConfigData(System.String[],System.Object[0:,0:])">
+	<summary>
+ 将工序配置数据根据工序名称选择数据
+ </summary>
+	<param name="ProcessNames">工序名称</param>
+	<param name="inData">工序配置数据</param>
+	<returns></returns>
+</member><member name="M:XGPub_FncModule.clsUseExcel.GetSheetNames(System.String,System.String)">
+	<summary>
+ 获取Excel指定页的所有单元格名称
+ </summary>
+	<param name="CurrSheetName">页面名称</param>
+	<param name="Key">可选项,指定的单元格名需包含输入的关键字</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:XGPub_FncModule.clsUseExcel.ProtectAllSheet(System.Boolean,System.String)">
+	<summary>
+ 加密或解密Excel工作薄所有页面
+ </summary>
+	<param name="isProtect">加密还是解密</param>
+	<param name="myPassword">输入要加密或解密的密码</param>
+	<remarks></remarks>
+</member><member name="M:XGPub_FncModule.clsUseExcel.ReadPassword(System.Byte[]@)">
+	<summary>
+ 读模块的MCU配置密码
+ </summary>
+	<param name="Password">读到的密码数据，一维数组</param>
+	<returns>Boolean型，True表示成功,False表示失败</returns>
+	<remarks>没有读到的则Password=Nothing</remarks>
+</member><member name="M:XGPub_FncModule.clsDBControl.OpenConnection(System.String)">
+	<summary>
+ 连接数据库
+ </summary>
+	<param name="ConnectionString">数据库连接字符串</param>
+	<returns>Boolean:True表示数据库连接成功;False表示数据库连接失败</returns>
+	<remarks>连接字符串格式:Server=(local);Asynchronous Processing=true;Data Source=IP;Initial Catalog=Database;User Id=UserName;password=Password,
+ MultipleActiveResultSets=true:表示可以使数据库连接复用,一个Command对象上同时打开多个DataReader,Asynchronous Processing=true:表示可以异步操作数据库</remarks>
+</member><member name="M:XGPub_FncModule.clsDBControl.CloseConnection">
+	<summary>
+ 关闭数据库连接
+ </summary>
+	<returns>Boolean:True表示关闭数据库连接成功;False表示关闭数据库连接失败</returns>
+</member><member name="M:XGPub_FncModule.clsDBControl.ExecuteQuery(System.String)">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="sqlStr">SQL语句</param>
+	<returns>Boolean:True表示执行SQL语句成功;False表示执行SQL语句失败</returns>
+</member><member name="M:XGPub_FncModule.clsDBControl.FetchAllData(System.String,System.Object[0:,0:]@,System.Int32@,System.Int32@)">
+	<summary>
+ 获取查询数据库的结果数据
+ </summary>
+	<param name="sqlStr">SQL语句</param>
+	<param name="Data">输出多行多列的二维数组数据</param>
+	<param name="RowCount">获取查询到的行数，可选项</param>
+	<param name="ColCount">获取查询到的列数，可选项</param>
+	<returns>Boolean:True表示执查询数据成功;False表示查询数据失败</returns>
+	<remarks></remarks>
+</member><member name="M:XGPub_FncModule.clsDBControl.InsertData(System.String,System.String[],System.Object[])">
+	<summary>
+ 将数据插入数据库
+ </summary>
+	<param name="Table">数据库表名</param>
+	<param name="ColumnsName">要插入数据的字段名列表</param>
+	<param name="inData">要插入的数据列表</param>
+	<returns>Boolean:True表示插入数据成功;False表示插入数据失败</returns>
+	<remarks>要插入的数据数量必须与字段名列表数量相同</remarks>
+</member><member name="M:XGPub_FncModule.clsDBControl.UpdateData(System.String,System.String[],System.String[],System.Object[],System.Object[])">
+	<summary>
+ 更新数据库指定的数据
+ </summary>
+	<param name="Table">数据库表名</param>
+	<param name="ColumnsName">要插入数据的字段名列表</param>
+	<param name="ColumnsName_Rule">更新条件的字段名列表</param>
+	<param name="inData">要更新的数据列表</param>
+	<param name="inData_Rule">更新条件对应的数据列表</param>
+	<returns>Boolean:True表示更新数据成功;False表示更新数据失败</returns>
+	<remarks>要更新的数据数量必须与字段名列表数量相同，同样更新条件数据必须与更新条件字段数量相同</remarks>
+</member><member name="M:XGPub_FncModule.clsDBControl.GetColumnsList(System.String,System.String[]@)">
+	<summary>
+ 获取数据库指定表的所有字段名
+ </summary>
+	<param name="Table">数据库表名</param>
+	<param name="Columns">字段名列表（一维数组）</param>
+	<returns>Boolean:True表示获取字段列表成功;False表示获取字段列表失败</returns>
+</member><member name="T:XGPub_FncModule.clsDBControl">
+	<summary>
+ SQL数据库操作类，支持ACCESS数据库
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

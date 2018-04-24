@@ -1,0 +1,7 @@
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Release\TosaRESistanceTest.frmMain.resources
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Release\TosaRESistanceTest.frmMsgProgress.resources
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Release\TosaRESistanceTest.frmQuery.resources
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Release\TosaRESistanceTest.Resources.resources
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Release\TosaRESistanceTest.RelaysControl.resources
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Release\TosaRESistanceTest.vbproj.GenerateResource.Cache
+E:\vs2010workspace\TosaRESistanceTest\TosaRESistanceTest\obj\x86\Release\TosaRESistanceTest.Login.resources
